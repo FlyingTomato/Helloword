@@ -8,7 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		472C0DB01A42B97F003445E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 472C0DAF1A42B97F003445E8 /* main.m */; };
+		47B94EDA1A47BA19004DD15E /* HarlyEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B94ED91A47BA19004DD15E /* HarlyEntity.m */; };
+		47B94EDD1A47BB37004DD15E /* HarlySubEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B94EDC1A47BB37004DD15E /* HarlySubEntity.m */; };
+		47BA2FA61A441D6200707187 /* NSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BA2FA51A441D6200707187 /* NSString.m */; };
+		47BA2FA91A4428CC00707187 /* HarlyClassTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BA2FA81A4428CC00707187 /* HarlyClassTwo.m */; };
+		47C8FBCF1A4463D20060E63C /* HarlyMethodLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 47C8FBCE1A4463D20060E63C /* HarlyMethodLibrary.h */; };
+		47C8FBD11A4463D20060E63C /* HarlyMethodLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C8FBD01A4463D20060E63C /* HarlyMethodLibrary.m */; };
+		47C8FBD71A4463D20060E63C /* libHarlyMethodLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47C8FBCC1A4463D20060E63C /* libHarlyMethodLibrary.a */; };
+		47C8FBE31A4466290060E63C /* HarlyMethodLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C8FBD01A4463D20060E63C /* HarlyMethodLibrary.m */; };
+		47CCA4D11A42C2F60083388D /* HarlyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CCA4D01A42C2F60083388D /* HarlyClass.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47C8FBD81A4463D20060E63C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 472C0DA41A42B97F003445E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47C8FBCB1A4463D20060E63C;
+			remoteInfo = HarlyMethodLibrary;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		472C0DAA1A42B97F003445E8 /* CopyFiles */ = {
@@ -20,11 +39,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		47C8FBCA1A4463D20060E63C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				47C8FBCF1A4463D20060E63C /* HarlyMethodLibrary.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		472C0DAC1A42B97F003445E8 /* Helloword */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Helloword; sourceTree = BUILT_PRODUCTS_DIR; };
 		472C0DAF1A42B97F003445E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47B94ED81A47BA19004DD15E /* HarlyEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HarlyEntity.h; sourceTree = "<group>"; };
+		47B94ED91A47BA19004DD15E /* HarlyEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HarlyEntity.m; sourceTree = "<group>"; };
+		47B94EDB1A47BB37004DD15E /* HarlySubEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HarlySubEntity.h; sourceTree = "<group>"; };
+		47B94EDC1A47BB37004DD15E /* HarlySubEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HarlySubEntity.m; sourceTree = "<group>"; };
+		47BA2FA31A440C6400707187 /* HarlyProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HarlyProtocol.h; sourceTree = "<group>"; };
+		47BA2FA41A441D6200707187 /* NSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSString.h; sourceTree = "<group>"; };
+		47BA2FA51A441D6200707187 /* NSString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSString.m; sourceTree = "<group>"; };
+		47BA2FA71A4428CC00707187 /* HarlyClassTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HarlyClassTwo.h; sourceTree = "<group>"; };
+		47BA2FA81A4428CC00707187 /* HarlyClassTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HarlyClassTwo.m; sourceTree = "<group>"; };
+		47BA2FAA1A44298100707187 /* FunProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunProtocol.h; sourceTree = "<group>"; };
+		47C8FBCC1A4463D20060E63C /* libHarlyMethodLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHarlyMethodLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		47C8FBCE1A4463D20060E63C /* HarlyMethodLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HarlyMethodLibrary.h; sourceTree = "<group>"; };
+		47C8FBD01A4463D20060E63C /* HarlyMethodLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HarlyMethodLibrary.m; sourceTree = "<group>"; };
+		47C8FBD61A4463D20060E63C /* HarlyMethodLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarlyMethodLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47C8FBDC1A4463D20060E63C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47CCA4CF1A42C2F60083388D /* HarlyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HarlyClass.h; sourceTree = "<group>"; };
+		47CCA4D01A42C2F60083388D /* HarlyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HarlyClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +81,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		47C8FBC91A4463D20060E63C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47C8FBD31A4463D20060E63C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47C8FBD71A4463D20060E63C /* libHarlyMethodLibrary.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -42,6 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				472C0DAE1A42B97F003445E8 /* Helloword */,
+				47C8FBCD1A4463D20060E63C /* HarlyMethodLibrary */,
+				47C8FBDA1A4463D20060E63C /* HarlyMethodLibraryTests */,
 				472C0DAD1A42B97F003445E8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				472C0DAC1A42B97F003445E8 /* Helloword */,
+				47C8FBCC1A4463D20060E63C /* libHarlyMethodLibrary.a */,
+				47C8FBD61A4463D20060E63C /* HarlyMethodLibraryTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,8 +123,45 @@
 			isa = PBXGroup;
 			children = (
 				472C0DAF1A42B97F003445E8 /* main.m */,
+				47CCA4CF1A42C2F60083388D /* HarlyClass.h */,
+				47CCA4D01A42C2F60083388D /* HarlyClass.m */,
+				47BA2FA31A440C6400707187 /* HarlyProtocol.h */,
+				47BA2FA41A441D6200707187 /* NSString.h */,
+				47BA2FA51A441D6200707187 /* NSString.m */,
+				47BA2FA71A4428CC00707187 /* HarlyClassTwo.h */,
+				47BA2FA81A4428CC00707187 /* HarlyClassTwo.m */,
+				47BA2FAA1A44298100707187 /* FunProtocol.h */,
+				47B94ED81A47BA19004DD15E /* HarlyEntity.h */,
+				47B94ED91A47BA19004DD15E /* HarlyEntity.m */,
+				47B94EDB1A47BB37004DD15E /* HarlySubEntity.h */,
+				47B94EDC1A47BB37004DD15E /* HarlySubEntity.m */,
 			);
 			path = Helloword;
+			sourceTree = "<group>";
+		};
+		47C8FBCD1A4463D20060E63C /* HarlyMethodLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				47C8FBCE1A4463D20060E63C /* HarlyMethodLibrary.h */,
+				47C8FBD01A4463D20060E63C /* HarlyMethodLibrary.m */,
+			);
+			path = HarlyMethodLibrary;
+			sourceTree = "<group>";
+		};
+		47C8FBDA1A4463D20060E63C /* HarlyMethodLibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				47C8FBDB1A4463D20060E63C /* Supporting Files */,
+			);
+			path = HarlyMethodLibraryTests;
+			sourceTree = "<group>";
+		};
+		47C8FBDB1A4463D20060E63C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47C8FBDC1A4463D20060E63C /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +184,41 @@
 			productReference = 472C0DAC1A42B97F003445E8 /* Helloword */;
 			productType = "com.apple.product-type.tool";
 		};
+		47C8FBCB1A4463D20060E63C /* HarlyMethodLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47C8FBE11A4463D20060E63C /* Build configuration list for PBXNativeTarget "HarlyMethodLibrary" */;
+			buildPhases = (
+				47C8FBC81A4463D20060E63C /* Sources */,
+				47C8FBC91A4463D20060E63C /* Frameworks */,
+				47C8FBCA1A4463D20060E63C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HarlyMethodLibrary;
+			productName = HarlyMethodLibrary;
+			productReference = 47C8FBCC1A4463D20060E63C /* libHarlyMethodLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		47C8FBD51A4463D20060E63C /* HarlyMethodLibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47C8FBE21A4463D20060E63C /* Build configuration list for PBXNativeTarget "HarlyMethodLibraryTests" */;
+			buildPhases = (
+				47C8FBD21A4463D20060E63C /* Sources */,
+				47C8FBD31A4463D20060E63C /* Frameworks */,
+				47C8FBD41A4463D20060E63C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47C8FBD91A4463D20060E63C /* PBXTargetDependency */,
+			);
+			name = HarlyMethodLibraryTests;
+			productName = HarlyMethodLibraryTests;
+			productReference = 47C8FBD61A4463D20060E63C /* HarlyMethodLibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +229,12 @@
 				ORGANIZATIONNAME = Harly;
 				TargetAttributes = {
 					472C0DAB1A42B97F003445E8 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					47C8FBCB1A4463D20060E63C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					47C8FBD51A4463D20060E63C = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
 				};
@@ -109,20 +252,61 @@
 			projectRoot = "";
 			targets = (
 				472C0DAB1A42B97F003445E8 /* Helloword */,
+				47C8FBCB1A4463D20060E63C /* HarlyMethodLibrary */,
+				47C8FBD51A4463D20060E63C /* HarlyMethodLibraryTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47C8FBD41A4463D20060E63C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		472C0DA81A42B97F003445E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47C8FBE31A4466290060E63C /* HarlyMethodLibrary.m in Sources */,
 				472C0DB01A42B97F003445E8 /* main.m in Sources */,
+				47BA2FA61A441D6200707187 /* NSString.m in Sources */,
+				47BA2FA91A4428CC00707187 /* HarlyClassTwo.m in Sources */,
+				47B94EDD1A47BB37004DD15E /* HarlySubEntity.m in Sources */,
+				47CCA4D11A42C2F60083388D /* HarlyClass.m in Sources */,
+				47B94EDA1A47BA19004DD15E /* HarlyEntity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47C8FBC81A4463D20060E63C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47C8FBD11A4463D20060E63C /* HarlyMethodLibrary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47C8FBD21A4463D20060E63C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47C8FBD91A4463D20060E63C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47C8FBCB1A4463D20060E63C /* HarlyMethodLibrary */;
+			targetProxy = 47C8FBD81A4463D20060E63C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		472C0DB11A42B97F003445E8 /* Debug */ = {
@@ -202,6 +386,7 @@
 		472C0DB41A42B97F003445E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -209,7 +394,70 @@
 		472C0DB51A42B97F003445E8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		47C8FBDD1A4463D20060E63C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		47C8FBDE1A4463D20060E63C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47C8FBDF1A4463D20060E63C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HarlyMethodLibraryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		47C8FBE01A4463D20060E63C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HarlyMethodLibraryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -232,6 +480,25 @@
 				472C0DB51A42B97F003445E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47C8FBE11A4463D20060E63C /* Build configuration list for PBXNativeTarget "HarlyMethodLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47C8FBDD1A4463D20060E63C /* Debug */,
+				47C8FBDE1A4463D20060E63C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47C8FBE21A4463D20060E63C /* Build configuration list for PBXNativeTarget "HarlyMethodLibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47C8FBDF1A4463D20060E63C /* Debug */,
+				47C8FBE01A4463D20060E63C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
